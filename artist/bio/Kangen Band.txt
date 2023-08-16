@@ -1,0 +1,10 @@
+{
+  "nama"      : "Kangen Band",
+  "biodata"   : "Kangen Band, Band dibentuk di Bandar Lampung, Lampung pada tahun 2005 oleh Dodhy (gitar), Andika (vokal), Tama (gitar), Bebe (bass), Izzy (keyboard), dan Baim (drum). Album perdana mereka adalah Tentang Aku, Kau & Dia (2007) dan Yang Sempurna merupakan repackage dari album perdana.", 
+  "website"   : "<a href='#' target='_blank' rel='nofollow' title='Kangen Band Official Website'><i class='fa fa-globe' aria-hidden='true'></i></a>",
+  "facebook"  : "<a href='https://www.facebook.com/test/' target='_blank' rel='nofollow' title='Kangen Band Facebook'><i class='fab fa-facebook' aria-hidden='true'></i></a>",
+  "twitter"   : "<a href='https://www.twitter.com/test/' target='_blank' rel='nofollow' title='Kangen Band Twitter'><i class='fab fa-twitter' aria-hidden='true'></i></a>",
+  "instagram" : "<a href='https://www.instagram.com/test/' target='_blank' rel='nofollow' title='Kangen Band Instagram'><i class='fab fa-instagram' aria-hidden='true'></i></a>",
+  "youtube"   : "<a href='https://www.youtube.com/test/' target='_blank' rel='nofollow' title='Kangen Band Youtube'><i class='fab fa-youtube' aria-hidden='true'></i></a>",
+  "spotify"   : "<a href='https://open.spotify.com/test/' target='_blank' rel='nofollow' title='Kangen Band Spotify'><i class='fab fa-spotify' aria-hidden='true'></i></a>"
+}
