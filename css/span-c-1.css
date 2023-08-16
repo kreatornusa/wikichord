@@ -1,0 +1,76 @@
+span.d {
+color:#DFDFDF;
+font-size:normal;
+font-weight:500;
+}
+  
+  
+span.c {
+font-weight: 700;
+color: #11D611;
+font-family: Ubuntu Mono;
+cursor: help;
+border-radius:5px;
+  text-decoration-line: underline;
+}
+
+/* Style for Chord Transpose */
+.transpose-keys {
+  margin: 0px;
+  overflow: auto;
+  font: normal 11px sans-serif;
+  text-align: center;
+  
+  scrollbar-color: rgba(221,221,221,0) rgba(238,238,238,0);
+  scrollbar-width: thin;
+  overflow: auto;
+  white-space: nowrap;
+}
+.transpose-keys a {
+  font-weight: bold;
+  display: inline-block;
+  width: 2.25em;
+  text-align: center;
+  margin: 0 .25em .25em 0;
+  text-decoration: none;
+  padding: 2px;
+  border: 1px #363434 solid;
+  color: #0c0;
+}
+.transpose-keys a.selected {
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+}
+  
+.button1 {background-color: #555555;}
+.button1 {
+border: none;
+  border-radius:5px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+width:48%;
+font-weight:bolder;
+}
+  
+.button3 {background-color: #555555;}
+.button3 {
+border: none;
+  border-radius:5px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+width:48%;
+font-weight:bolder;
+} 

@@ -1,0 +1,33 @@
+.ui-tooltip h3{display:none !important;}
+#btnNext a{font-size:8px !important;border:solid 0px red !important;}
+#btnNext, #btnPrevious {width:48%;}
+.breadcrumbs a:hover{color:red !important;}
+#btnNext{float:right;font-size:8px !important;}
+#btnPrevious{font-size:8px !important;float:left;margin-top:px !important;}
+.breadcrumbs span{color:white !important;margin-left:10px;}
+    
+.breadcrumbs {padding-left:7px;overflow:auto;font-size:0.7em;display:block !important;background:#272727;margin-left:-5px;margin-right:0px;border-bottom:solid 1px #272727 !important;border-top:solid 1px #272727 !important;}
+    
+    
+.breadcrumbs a{color:white !important;text-transform: capitalize;border-right:solid 1px white;padding-left:10cpx;padding-right:10px;margin-left:-12px;}
+.post {font-family:font-family: &#39;Inter&#39;, sans-serif;font-size:15px;line-height:1.5em}
+  
+.post-view {margin-top:-10px !important;margin-left:3px;margin-right:3px;font-size: 12px;background: white;padding: 3px;border-radius: 4px; padding-left:9px; padding-right:9px; padding-bottom:6px; padding-top:7px; color:#303030;-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      }
+  
+-moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      }
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width:760px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+  }

@@ -1,0 +1,26 @@
+.post-body table td {
+	background: #000;
+	border: none;
+	text-align: left;
+	vertical-align: top;
+}
+
+#listspan {
+	font-size: 16px;
+}
+
+.batas {
+	background: #000;
+	margin-left: -30px;
+}
+
+td a:before {
+	content: '+ '
+}
+
+ol,
+ul,
+dl {
+	margin: .0 0 .0 0;
+	padding-left: 30px;
+}

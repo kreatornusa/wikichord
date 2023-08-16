@@ -1,0 +1,76 @@
+span.d {
+color:#DFDFDF;
+font-size:normal;
+font-weight:500;
+}
+  
+  
+span.c {
+font-weight: 700;
+color: #11D611;
+font-family: Ubuntu Mono;
+cursor: help;
+border-radius:5px;
+  text-decoration-line: underline;
+}
+
+  
+.transpose-keys {
+margin: 10px 0;
+overflow: auto;
+font: normal 11px sans-serif;}
+  
+.transpose-keys a {
+font-weight:bold;
+display: block;
+float: left;
+width: 2.25em;
+text-align: center;
+margin: 0 .25em .25em 0;
+color: #999;
+  border-radius:5px;
+background: #222;
+text-decoration: none;
+padding: .4em 0;
+border: solid 1px transparent;
+outline: none;
+}
+  
+  
+.transpose-keys a.selected {
+font-weight:bold;
+background: #111;
+color: #11D611;
+}
+  
+.button1 {background-color: #555555;}
+.button1 {
+border: none;
+  border-radius:5px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+width:48%;
+font-weight:bolder;
+}
+  
+.button3 {background-color: #555555;}
+.button3 {
+border: none;
+  border-radius:5px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+width:48%;
+font-weight:bolder;
+} 
