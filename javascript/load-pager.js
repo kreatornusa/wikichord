@@ -1,5 +1,5 @@
 //<![CDATA[
-/*! Simple AJAX infinite scroll by Kreatornusa.com */
+/*! Simple AJAX infinite scroll by WikiChord.com */
 ! function(t, e) {
     t.InfiniteScroll = function(n) {
         function r(t, n) {
@@ -141,9 +141,9 @@ var infinite_scroll = new InfiniteScroll({
     }
 });
 
-var urlBlog = 'https://www.kreatornusa.com';
+var urlBlog = 'https://www.wikichord.com';
 var license = $('#license-code').text();
-var informasibatas = '<style>body{background:#fff}#peringatan span{font-size:50px}#peringatan{z-index:99999;margin:50px;height:30%;text-align:center;border:5px solid red;padding:70px 30px;border-radius:10px}#peringatan h4{font-size:20px}</style><div id="peringatan"><h1>Please input a valid license code!</h1><p>Anda menggunakan template versi premium, untuk medapatkan kode lisensi, silahkan hubungi Theme Developer (082232327903)</p>Pengalihan Halaman <span id="batas-waktu-template">20</span> detik </div>';
+var informasibatas = '<style>body{background:#fff}#peringatan span{font-size:50px}#peringatan{z-index:99999;margin:50px;height:30%;text-align:center;border:5px solid red;padding:70px 30px;border-radius:10px}#peringatan h4{font-size:20px}</style><div id="peringatan"><h1>PLEASE INPUT A VALID LICENSE CODE!</h1><p>Anda menggunakan tema versi premium, untuk mengaktifkan kode lisensi, silahkan hubungi pembuat tema.</p><span id="batas-waktu-template">20</span></div>';
 
 function nolicense() {
     $(document.body).html(informasibatas);
@@ -228,6 +228,6 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function () { if ($("#change,.change").attr("href") != "https://www.kreatornusa.com") {
-        window.location.href = "https://www.kreatornusa.com"; }});
+$(document).ready(function () { if ($("#change,.change").attr("href") != "https://www.wikichord.com") {
+        window.location.href = "https://www.wikichord.com"; }});
 //]]>
