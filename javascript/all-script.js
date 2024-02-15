@@ -301,18 +301,3 @@ U.prototype.removeUser=U.prototype.Le;U.prototype.ie=function(a,b){x("Firebase.c
 U.prototype.he=function(a,b){x("Firebase.changeEmail",2,2,arguments.length);V("Firebase.changeEmail",1,a,!1);Qf("Firebase.changeEmail",a,"oldEmail");Qf("Firebase.changeEmail",a,"newEmail");Qf("Firebase.changeEmail",a,"password");A("Firebase.changeEmail",2,b,!1);this.k.Q.he(a,b)};U.prototype.changeEmail=U.prototype.he;
 U.prototype.Me=function(a,b){x("Firebase.resetPassword",2,2,arguments.length);V("Firebase.resetPassword",1,a,!1);Qf("Firebase.resetPassword",a,"email");A("Firebase.resetPassword",2,b,!1);this.k.Q.Me(a,b)};U.prototype.resetPassword=U.prototype.Me;U.goOffline=function(){x("Firebase.goOffline",0,0,arguments.length);Wh.Ob().qb()};U.goOnline=function(){x("Firebase.goOnline",0,0,arguments.length);Wh.Ob().ic()};
 function Rc(a,b){J(!b||!0===a||!1===a,"Can't turn on custom loggers persistently.");!0===a?("undefined"!==typeof console&&("function"===typeof console.log?yb=q(console.log,console):"object"===typeof console.log&&(yb=function(a){console.log(a)})),b&&P.set("logging_enabled",!0)):a?yb=a:(yb=null,P.remove("logging_enabled"))}U.enableLogging=Rc;U.ServerValue={TIMESTAMP:{".sv":"timestamp"}};U.SDK_VERSION="2.2.1";U.INTERNAL=W;U.Context=Wh;U.TEST_ACCESS=Z;})();
-
-var storedText;
-
-fetch('https://cdn.jsdelivr.net/gh/kreatornusa/wikichord/license/copyright.txt')
-  .then(function(response) {
-    response.text().then(function(text) {
-      storedText = text;
-      done();
-    });
-  });
-
-function done() {
-  document.getElementById('copyright').textContent =
-    storedText;
-}
